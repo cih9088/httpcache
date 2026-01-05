@@ -25,8 +25,8 @@
 package store
 
 import (
-	"github.com/bartventer/httpcache/store/driver"
-	"github.com/bartventer/httpcache/store/internal/registry"
+	"github.com/cih9088/httpcache/store/driver"
+	"github.com/cih9088/httpcache/store/internal/registry"
 )
 
 // Register makes a driver implementation available by the provided name (e.g.,

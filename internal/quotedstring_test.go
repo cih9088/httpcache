@@ -17,7 +17,7 @@ package internal
 import (
 	"testing"
 
-	"github.com/bartventer/httpcache/internal/testutil"
+	"github.com/cih9088/httpcache/internal/testutil"
 )
 
 func TestParseQuotedStringE(t *testing.T) {

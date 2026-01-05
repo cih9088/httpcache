@@ -25,10 +25,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/bartventer/httpcache/internal"
-	"github.com/bartventer/httpcache/internal/testutil"
-	"github.com/bartventer/httpcache/store"
-	_ "github.com/bartventer/httpcache/store/memcache"
+	"github.com/cih9088/httpcache/internal"
+	"github.com/cih9088/httpcache/internal/testutil"
+	"github.com/cih9088/httpcache/store"
+	_ "github.com/cih9088/httpcache/store/memcache"
 )
 
 func mockTransport(fields func(rt *transport)) *transport {

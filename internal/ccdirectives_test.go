@@ -21,7 +21,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/bartventer/httpcache/internal/testutil"
+	"github.com/cih9088/httpcache/internal/testutil"
 )
 
 func TestParseCCRequestDirectives_AllDirectives(t *testing.T) {

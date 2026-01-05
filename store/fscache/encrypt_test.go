@@ -22,7 +22,7 @@ import (
 	"io"
 	"testing"
 
-	"github.com/bartventer/httpcache/internal/testutil"
+	"github.com/cih9088/httpcache/internal/testutil"
 )
 
 func mustBase64Key(t *testing.T, size int) string {

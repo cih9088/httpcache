@@ -95,9 +95,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/bartventer/httpcache/store"
-	"github.com/bartventer/httpcache/store/driver"
-	"github.com/bartventer/httpcache/store/expapi"
+	"github.com/cih9088/httpcache/store"
+	"github.com/cih9088/httpcache/store/driver"
+	"github.com/cih9088/httpcache/store/expapi"
 )
 
 const Scheme = "fscache" // url scheme for the file system cache

@@ -19,7 +19,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/bartventer/httpcache/internal"
+	"github.com/cih9088/httpcache/internal"
 )
 
 type Option interface {

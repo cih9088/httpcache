@@ -23,7 +23,7 @@ import (
 	"slices"
 	"sync"
 
-	"github.com/bartventer/httpcache/store/driver"
+	"github.com/cih9088/httpcache/store/driver"
 )
 
 var ErrUnknownDriver = errors.New("store: unknown driver")

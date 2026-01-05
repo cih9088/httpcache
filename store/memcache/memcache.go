@@ -24,8 +24,8 @@ import (
 	"net/url"
 	"sync"
 
-	"github.com/bartventer/httpcache/store"
-	"github.com/bartventer/httpcache/store/driver"
+	"github.com/cih9088/httpcache/store"
+	"github.com/cih9088/httpcache/store/driver"
 )
 
 const Scheme = "memcache"

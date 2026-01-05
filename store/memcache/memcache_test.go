@@ -17,8 +17,8 @@ package memcache
 import (
 	"testing"
 
-	"github.com/bartventer/httpcache/store/acceptance"
-	"github.com/bartventer/httpcache/store/driver"
+	"github.com/cih9088/httpcache/store/acceptance"
+	"github.com/cih9088/httpcache/store/driver"
 )
 
 func TestMemCache_Acceptance(t *testing.T) {

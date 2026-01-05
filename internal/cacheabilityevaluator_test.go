@@ -20,7 +20,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/bartventer/httpcache/internal/testutil"
+	"github.com/cih9088/httpcache/internal/testutil"
 )
 
 func Test_canStoreResponse(t *testing.T) {

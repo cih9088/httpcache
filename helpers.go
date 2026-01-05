@@ -19,7 +19,7 @@ import (
 	"bytes"
 	"net/http"
 
-	"github.com/bartventer/httpcache/internal"
+	"github.com/cih9088/httpcache/internal"
 )
 
 func make504Response(req *http.Request) (*http.Response, error) {

@@ -22,7 +22,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/bartventer/httpcache/internal/testutil"
+	"github.com/cih9088/httpcache/internal/testutil"
 )
 
 func Test_Issue16_LongURLFragmentation(t *testing.T) {

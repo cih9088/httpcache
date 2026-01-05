@@ -18,7 +18,7 @@ import (
 	"net/url"
 	"testing"
 
-	"github.com/bartventer/httpcache/internal/testutil"
+	"github.com/cih9088/httpcache/internal/testutil"
 )
 
 func Test_makeKey(t *testing.T) {

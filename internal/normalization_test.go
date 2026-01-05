@@ -20,7 +20,7 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/bartventer/httpcache/internal/testutil"
+	"github.com/cih9088/httpcache/internal/testutil"
 )
 
 func TestNormalizeHeaderValue(t *testing.T) {

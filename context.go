@@ -17,7 +17,7 @@ package httpcache
 import (
 	"context"
 
-	"github.com/bartventer/httpcache/internal"
+	"github.com/cih9088/httpcache/internal"
 )
 
 // ContextWithTraceID adds a trace ID to the context, which can be used for

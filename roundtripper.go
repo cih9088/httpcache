@@ -28,10 +28,10 @@
 //		"net/http"
 //		"time"
 //
-//		"github.com/bartventer/httpcache"
+//		"github.com/cih9088/httpcache"
 //
 //		// Register a cache backend by importing the package
-//		_ "github.com/bartventer/httpcache/store/fscache"
+//		_ "github.com/cih9088/httpcache/store/fscache"
 //	)
 //
 //	func main() {
@@ -55,9 +55,9 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/bartventer/httpcache/internal"
-	"github.com/bartventer/httpcache/store"
-	"github.com/bartventer/httpcache/store/driver"
+	"github.com/cih9088/httpcache/internal"
+	"github.com/cih9088/httpcache/store"
+	"github.com/cih9088/httpcache/store/driver"
 )
 
 const (
@@ -396,7 +396,7 @@ func (r *transport) handleStaleWhileRevalidate(
 	// if the program exits before the goroutine finishes. This design choice was
 	// made to keep the API simple and avoid requiring explicit shutdown coordination.
 	//
-	// Open a discussion at github.com/bartventer/httpcache/issues if your use case requires
+	// Open a discussion at github.com/cih9088/httpcache/issues if your use case requires
 	// guaranteed completion.
 	go r.backgroundRevalidate(req2, stored, urlKey, freshness, ccReq)
 	internal.CacheStatusStale.ApplyTo(stored.Data.Header)

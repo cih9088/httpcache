@@ -21,7 +21,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/bartventer/httpcache/internal/testutil"
+	"github.com/cih9088/httpcache/internal/testutil"
 )
 
 func TestResponse_MarshalBinary(t *testing.T) {

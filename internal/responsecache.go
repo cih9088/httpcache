@@ -20,7 +20,7 @@ import (
 	"log/slog"
 	"net/http"
 
-	"github.com/bartventer/httpcache/store/driver"
+	"github.com/cih9088/httpcache/store/driver"
 )
 
 type Cache = driver.Conn

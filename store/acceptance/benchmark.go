@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/bartventer/httpcache/store/driver"
+	"github.com/cih9088/httpcache/store/driver"
 )
 
 // RunB runs the acceptance tests for a Cache implementation in a benchmark context.

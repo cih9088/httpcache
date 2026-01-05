@@ -13,7 +13,7 @@
 // limitations under the License.
 
 // Package driver defines interfaces to be implemented by cache backends
-// as used by the github.com/bartventer/httpcache/store package.
+// as used by the github.com/cih9088/httpcache/store package.
 //
 // # Implementing a Cache Backend
 //

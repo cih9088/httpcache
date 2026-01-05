@@ -12,8 +12,8 @@ import (
 	"text/tabwriter"
 	"time"
 
-	"github.com/bartventer/httpcache"
-	"github.com/bartventer/httpcache/store"
+	"github.com/cih9088/httpcache"
+	"github.com/cih9088/httpcache/store"
 )
 
 var cache *DummyCache
